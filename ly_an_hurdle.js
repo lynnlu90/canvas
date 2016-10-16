@@ -560,8 +560,7 @@ p.nominalBounds = new cjs.Rectangle(-250,-105,500,210);
 			if (time_end > time_top) time_top = time_end;
 			gs.scr_end.txt_score.text = time_end;
 			gs.scr_end.txt_top.text = time_top;
-			alert('time_end: ' + time_end);
-			alert('time_top: ' + time_top);
+			alert(time_end + ', ' + time_top);
 		}
 		
 		function random(min, max) {
