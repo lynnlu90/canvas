@@ -557,7 +557,7 @@ p.nominalBounds = new cjs.Rectangle(-250,-105,500,210);
 		function showScore() {
 			gs.scr_play.visible = false;
 			gs.scr_end.visible = true;
-			if (time_end > time_top) time_top = time_end;
+			if (time_end - time_top > 0) time_top = time_end;
 			gs.scr_end.txt_score.text = time_end;
 			gs.scr_end.txt_top.text = time_top;
 		}
